@@ -43,7 +43,7 @@ tags:
 - Illumination
 - Shading
 - Image composition
-featured: false
+featured: true
 
 # links:
 # - name: ""

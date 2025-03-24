@@ -42,7 +42,7 @@ tags:
 - streaming visualization
 - scalability
 - big data
-featured: false
+featured: true
 
 # links:
 # - name: ""

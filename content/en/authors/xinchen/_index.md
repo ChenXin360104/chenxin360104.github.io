@@ -3,7 +3,7 @@
 title: Xin Chen
 
 # Name pronunciation (optional)
-# name_pronunciation: 陈昕
+name_pronunciation: ''
 
 # Full name (for SEO)
 first_name: Xin
@@ -173,4 +173,4 @@ awards:
 
 ## About Me
 
-Dr. Xin Chen is a Postdoctoral Researcher at the Key Laboratory of Data Engineering and Knowledge Engineering, Renmin University of China. His research focuses on designing efficient query and computational methods to enhance visual analytics of large-scale data. 
+Dr. Xin Chen is a Postdoctoral Researcher at the Key Laboratory of Data Engineering and Knowledge Engineering, Renmin University of China. His research focuses on developing efficient query and computational techniques to advance the visual analytics of large-scale datasets. 

@@ -71,17 +71,17 @@ sections:
   #     # Reduce spacing
   #     # spacing:
   #     #   padding: [0, 0, 0, 0]
-  # - block: collection
-  #   id: publications
-  #   content:
-  #     title: Featured Publications
-  #     filters:
-  #       folders:
-  #         - publication
-  #       featured_only: true
-  #   design:
-  #     view: article-grid
-  #     columns: 2
+  - block: collection
+    id: publications
+    content:
+      title: Featured Publications
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      view: article-grid
+      columns: 2
   - block: collection
     content:
       title: Recent Publications
@@ -92,14 +92,13 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  # - block: collection
-  #   id: talks
-  #   content:
-  #     title: Recent & Upcoming Talks
-  #     filters:
-  #       folders:
-  #         - event
-  #   design:
-  #     view: article-grid
-  #     columns: 1
+  - block: markdown
+    id: services
+    content:
+      title: 'Professional Services'
+      subtitle: ''
+      text: |-
+        * Reviewer, EuroVis 2025
+    design:
+      columns: '1'
 ---

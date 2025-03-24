@@ -3,7 +3,7 @@ title: "OM3: An Ordered Multi-level Min-Max Representation for Interactive Progr
 authors:
 - Yunhai Wang
 - Yuchun Wang
-- Xin Chen
+- xinchen
 - Yue Zhao
 - Fan Zhang
 - Eugene Wu

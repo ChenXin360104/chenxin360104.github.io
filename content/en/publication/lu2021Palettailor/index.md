@@ -3,7 +3,7 @@ title: "Palettailor: Discriminable Colorization for Categorical Data"
 authors:
 - Kecheng Lu
 - Mi Feng
-- Xin Chen
+- xinchen
 - Michael Sedlmair
 - Oliver Deussen
 - Dani Lischinski

@@ -1,7 +1,7 @@
 ---
 title: "Pyramid-based Scatterplots Sampling for Progressive and Streaming Data Visualization"
 authors:
-- Xin Chen
+- xinchen
 - Jian Zhang
 - Chi-Wing Fu
 - Jean-Daniel Fekete

@@ -2,7 +2,7 @@
 title: "Bi-Scale Density-Plot Enhancement Based on Variance-Aware Filter"
 authors:
 - Huaiwei Bao
-- Xin Chen
+- xinchen
 - Kecheng Lu
 - Chi-Wing Fu
 - Jean-Daniel Fekete

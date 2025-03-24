@@ -1,7 +1,7 @@
 ---
 title: "A Recursive Subdivision Technique for Sampling Multi-class Scatterplots"
 authors:
-- Xin Chen
+- xinchen
 - Tong Ge
 - Jian Zhang
 - Baoquan Chen

@@ -1,9 +1,9 @@
 ---
 # Display name
-title: 陈昕
+title: Xin Chen
 
 # Name pronunciation (optional)
-name_pronunciation: Xin Chen
+# name_pronunciation: 陈昕
 
 # Full name (for SEO)
 first_name: Xin

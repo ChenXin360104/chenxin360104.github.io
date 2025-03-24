@@ -1,7 +1,7 @@
 ---
 title: "Visualization-Driven Illumination for Density Plots"
 authors:
-- Xin Chen
+- xinchen
 - Yunhai Wang
 - Huaiwei Bao
 - Kecheng Lu

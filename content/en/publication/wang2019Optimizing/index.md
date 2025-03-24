@@ -2,7 +2,7 @@
 title: "Optimizing Color Assignment for Perception of Class Separability in Multiclass Scatterplots"
 authors:
 - Yunhai Wang
-- Xin Chen
+- xinchen
 - Tong Ge
 - Chen Bao
 - Michael Sedlmair

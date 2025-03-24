@@ -1,0 +1,90 @@
+---
+title: "Optimizing Color Assignment for Perception of Class Separability in Multiclass Scatterplots"
+authors:
+- Yunhai Wang
+- Xin Chen
+- Tong Ge
+- Chen Bao
+- Michael Sedlmair
+- Chi-Wing Fu
+- Oliver Deussen 
+- Baoquan Chen
+
+author_notes:
+  - 'Joint first authors'
+  - 'Joint first authors'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+
+date: "2019-01-01T00:00:00Z"
+doi: "10.1109/TVCG.2018.2864912"
+
+# Schedule page publish date (NOT publication's date).
+publishDate: "2019-01-01T00:00:00Z"
+
+# Publication type.
+# Accepts a single type but formatted as a YAML list (for Hugo requirements).
+# Enter a publication type from the CSL standard.
+publication_types: ["article-journal"]
+
+# Publication name and optional abbreviated publication name.
+publication: "IEEE Transactions on Visualization and Computer Graphics"
+publication_short: "IEEE TVCG"
+
+abstract: Appropriate choice of colors significantly aids viewers in understanding the structures in multiclass scatterplots and becomes more important with a growing number of data points and groups. An appropriate color mapping is also an important parameter for the creation of an aesthetically pleasing scatterplot. Currently, users of visualization software routinely rely on color mappings that have been pre-defined by the software. A default color mapping, however, cannot ensure an optimal perceptual separability between groups, and sometimes may even lead to a misinterpretation of the data. In this paper, we present an effective approach for color assignment based on a set of given colors that is designed to optimize the perception of scatterplots. Our approach takes into account the spatial relationships, density, degree of overlap between point clusters, and also the background color. For this purpose, we use a genetic algorithm that is able to efficiently find good color assignments. We implemented an interactive color assignment system with three extensions of the basic method that incorporates top K suggestions, user-defined color subsets, and classes of interest for the optimization. To demonstrate the effectiveness of our assignment technique, we conducted a numerical study and a controlled user study to compare our approach with default color assignments; our findings were verified by two expert studies. The results show that our approach is able to support users in distinguishing cluster numbers faster and more precisely than default assignment methods.
+
+# Summary. An optional shortened abstract.
+# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+
+tags:
+- color perception
+- visual design
+- scatterplots
+featured: false
+
+# links:
+# - name: ""
+#   url: ""
+url_pdf: 'https://www.yunhaiwang.net/infovis18/color/vis-color.pdf'
+url_code: ''
+url_dataset: ''
+url_poster: ''
+url_project: 'https://www.yunhaiwang.net/infovis18/color/'
+url_slides: ''
+url_source: ''
+url_video: ''
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder. 
+image:
+  caption: 'The color assignment has a strong influence on the visual separability of class structures shown in multiclass scatterplots. Here we show synthetically labeled six-class (top row) and eight-class (bottom row) datasets, and color palettes from ColorBrewer (a,b,c) and Tableau (d,e,f). Scatterplots are displayed from left to right using color assignments produced by our method with the lowest (i.e., poor) scores ranked by our separation measure (a,d) towards the one with the highest (i.e., best) scores (c,f).'
+  focal_point: ""
+  preview_only: false
+
+# Associated Projects (optional).
+#   Associate this publication with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `internal-project` references `content/project/internal-project/index.md`.
+#   Otherwise, set `projects: []`.
+projects: []
+
+# Slides (optional).
+#   Associate this publication with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides: "example"` references `content/slides/example/index.md`.
+#   Otherwise, set `slides: ""`.
+slides: ""
+---
+
+{{% callout note %}}
+Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+{{% /callout %}}
+
+{{% callout note %}}
+Create your slides in Markdown - click the *Slides* button to check out the example.
+{{% /callout %}}
+
+Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).

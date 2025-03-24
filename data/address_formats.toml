@@ -1,0 +1,3 @@
+# Address formats.
+en = {order = ['street', 'city', 'region', 'postcode', 'country'], delimiters = ['<br> ', ', ', ' ', ', ']}
+zh = {order = ['country', 'region', 'city', 'street', 'postcode'], delimiters = ['', ' ', ' ', ' ']}

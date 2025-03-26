@@ -80,12 +80,15 @@ projects: []
 slides: ""
 ---
 
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
+### Results
 
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
+![forward_transformation](transform.png "Illustrating the OM3 forward transform and the coefficients stored in the database. (a) The input data (bottom) with 16 samples is recursively transformed to build the four-level coefficient tree. Each tree node has two aggregate coefficients and two associated detail coefficients. To start, we replicate the input data twice to construct the coefficients at level 4, marked by the dotted box. (b) The initial database table stores the final two aggregate coefficients at the top (level 0) and all detail coefficients from the forward transforms; detail coefficients that are redundant for reconstructing the original data are marked by the blue box. (c) The additional database table stores all ordering coefficients. (d,e) Line visualizations (in black) reconstructed by the inverse transform from the aggregate coefficients on a two-pixel-wide window (d) and a four-pixel-wide window (e), where the pixels with the red boxes are missed.")
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+![tree_query](tree_query.jpg "Illustrating how incremental tree-based query supports for accurately visualizing a time series on a three-pixel-width window. (a) Simply generating the visualization by using four groups of the aggregate values at the level 2 could easily miss pixels (red boxes). (b,c) Our query method with pruning can efficiently visit necessary nodes in the OM3 coefficient tree to locate the minimum and maximum aggregates for each pixel column in the target window level by level and uses these value ranges to rasterize the pixel columns in (c). (d) The final visualization produced by our method (grey pixels) is error-free; its rasterization precisely matches the data points in the original line chart. Here, the detail coefficients of the node [14,17] do not need to be loaded, since its value range is covered by the value ranges of the adjacent two pixel columns [7,20] and [6,29], while the inter-column line highlighted in (d) corresponds to the node [14,22].")
+
+![progressive_performance](pro_performance.jpg "(a,b) Boxplots summarize the response time of 20 trials for producing visualizations with SSIM values larger than 0.95 after performing three interactions on the two datasets. (c,d) The line charts show how SSIM-based visualization quality evolve over the response time for a randomly selected trial for each interaction on the two data.")
+
+![case_study](om3_teaser.png "44 stock price lines visualized using OM3, exhibiting heavy visual clutter. Hence, we put the timebox marked by the blue box to filter out the stocks with different behaviors and produce the visualization shown in (b). (c) Further, we zoom into a specific time interval between 2019 and 2022 and then use a timebox to further filter the stocks.")
+
+### Supplementary Material
+The supplemental material file is available at <https://www.yunhaiwang.net/sigmod2023/om3/supp.pdf>.

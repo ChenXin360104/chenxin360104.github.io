@@ -79,12 +79,19 @@ projects: []
 slides: ""
 ---
 
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
+### Results
 
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
+![parameter_analysis](parameter_analysis.png "Parameter analysis on the Hertzsprung-Russell diagram dataset [31]. (a,b,c,d) Increasing η makes low-density structures more salient while the high-density structures remain unchanged. (e,f,c,g,h) Decreasing φ makes low-density structures clearer, but at the same time darkens high-density structures.")
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+![quantitative_eval](quantitative_eval.png "Comparison of the degree of color distortion (DCD) produced by four experimental techniques on ten datasets. Dash lines indicate the average DCD of their corresponding techniques. For values out of the plot range, we treat them as outliers and draw a dark halo to indicate them.")
+
+![user_study](user_study.png "Confidence interval plots and statistical tables of the error rate and response time for each task in our user study. Red points indicate the mean values and error bars represent 95% confidence intervals. Each table shows the statistical test results of our experimental techniques, showing the mean with 95% confidence interval and p-value from the Mann-Whitney test against our VIDP technique.")
+
+![SUP_variants_comparison](SUP_variants_comparison.png "Comparing variants of SUP and our VIDP technique using the Barcelona Accidents dataset. (a, b, c) The replicated results of CDP and SUP variants without shading and with Phong shading and ambient occlusion (AO), respectively, as presented in Trautner et al. [4]. (d) The VIDP result with default parameters. According to Equation 8, the degree of color distortion of (b,c,d) are 4.09, 2.24, and 1.27, respectively.")
+
+![case_study_uk](case_study_uk.png "VIDP of the “UK Road Safety” dataset [46] using the Viridis color map and the default parameters. (a) A small local η =0.2 can suppress minor structures in the area above London (the blue box in (b)), and a large local η =20 can reinforce minor structures in the northwest area of Scotland (the red box in (b)).")
+
+### Supplementary Material
+The online demo is hosted on <https://xinchen-sdu.github.io/Visualization-Aware-Illumination-for-Density-Plots/>.
+
+The full evaluation results, user study website, and the analysis code are available at [OSF](https://osf.io/5xpsw/?view_only=0445046dad574d4a90d7138e94547ada).

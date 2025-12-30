@@ -98,6 +98,7 @@ sections:
       title: 'Professional Services'
       subtitle: ''
       text: |-
+        * Short Papers Program Committee, Vis 2025
         * Reviewer, EuroVis 2025
     design:
       columns: '1'

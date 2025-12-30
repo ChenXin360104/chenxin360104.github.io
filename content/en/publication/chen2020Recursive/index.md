@@ -44,7 +44,7 @@ tags:
 - kd-tree
 - outlier
 - relative density
-featured: false
+featured: true
 
 # links:
 # - name: ""

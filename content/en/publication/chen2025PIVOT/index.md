@@ -56,7 +56,7 @@ url_poster: ''
 url_project: 'https://www.yunhaiwang.net/sigmod2026/PIVOT/'
 url_slides: ''
 url_source: ''
-url_video: ''
+url_video: 'https://www.yunhaiwang.net/sigmod2026/PIVOT/video.mp4'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

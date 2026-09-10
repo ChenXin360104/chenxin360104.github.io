@@ -1,0 +1,20 @@
+.article-header {
+    max-width: 100% !important;
+    max-height: none !important;
+    height: auto !important;
+    overflow: visible !important;
+}
+
+.article-header-caption {
+    position: static !important;
+
+    background: transparent !important;
+    color: inherit !important;
+
+    padding: 0.5rem 0 0 !important;
+    margin: 0 !important;
+
+    text-align: center;
+    font-size: 0.85rem;
+    line-height: 1.5;
+}

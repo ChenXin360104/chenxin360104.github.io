@@ -98,8 +98,9 @@ sections:
       title: 'Professional Services'
       subtitle: ''
       text: |-
-        * Short Papers Program Committee, Vis 2025
-        * Reviewer, EuroVis 2025
+        * Committee Member, CSIG-VIS
+        * Short Papers Program Committee, Vis 2025-2026
+        * Reviewer, EuroVis 2025, ChinaVis 2026
     design:
       columns: '1'
 ---

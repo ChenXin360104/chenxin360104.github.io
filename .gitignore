@@ -7,3 +7,6 @@ public/
 _vendor/
 assets/jsconfig.json
 .hugo_build.lock
+
+# My
+note.txt
